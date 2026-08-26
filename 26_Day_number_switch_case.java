@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Q26{
+ public static void main(String[]a){
+  Scanner sc=new Scanner(System.in);
+  System.out.print("Day number (1-7): "); int d=sc.nextInt();
+  switch(d){
+    case 1: case 2: case 3: case 4: case 5: System.out.println("Weekday"); break;
+    case 6: case 7: System.out.println("Weekend"); break;
+    default: System.out.println("Invalid day number");
+  }
+ }
+}
+/* OUTPUT (example):
+Day number (1-7): 6
+Weekend
+*/
